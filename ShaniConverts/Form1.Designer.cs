@@ -39,11 +39,6 @@ namespace ShaniConverts
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            this.Text = "Shani Converts - רץ ברקע";
-            this.MaximizeBox = true;
-            this.StartPosition = FormStartPosition.CenterScreen;
-            this.Size = new System.Drawing.Size(700, 300);
-            this.BackgroundImage = null;
             // 
             // welcome
             // 
@@ -56,7 +51,6 @@ namespace ShaniConverts
             this.footer.BackColor = System.Drawing.Color.Transparent;
             this.footer.ForeColor = System.Drawing.Color.LightGray;
             this.footer.Name = "footer";
-            this.footer.Click += new System.EventHandler(this.footer_Click);
             // 
             // label1
             // 

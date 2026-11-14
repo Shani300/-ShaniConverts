@@ -24,7 +24,7 @@ namespace ShaniConverts
             SetStartup();
 
             // עיצוב החלון
-            this.Text = "Shani Converts - רץ ברקע";
+            this.Text = "Shani Converts - 2027";
             this.MaximizeBox = true;
             this.StartPosition = FormStartPosition.CenterScreen;
             this.Size = new System.Drawing.Size(700, 300);
@@ -51,12 +51,12 @@ namespace ShaniConverts
 
         private void OnKeyDown(object sender, KeyEventArgs e)
         {
-            if (e.Control && e.Shift && e.KeyCode == Keys.A)
+            if (e.Control && e.Shift && e.KeyCode == Keys.Z)
             {
                 e.Handled = true;
                 Task.Run(() => ConvertAllText());
             }
-            else if (e.Control && e.Shift && e.KeyCode == Keys.Z)
+            else if (e.Control && e.Shift && e.KeyCode == Keys.A)
             {
                 e.Handled = true;
                 Task.Run(() => ConvertSelectedText());
@@ -211,13 +211,6 @@ namespace ShaniConverts
         }
 
         private void Form1_Load(object sender, EventArgs e) { }
-        private void label1_Click(object sender, EventArgs e) { }
-        private void button1_Click(object sender, EventArgs e) { }
-        private void label2_Click(object sender, EventArgs e) { }
-        private void label2_Click_1(object sender, EventArgs e) { }
-        private void footer_Click(object sender, EventArgs e) { }
-        private void label3_Click(object sender, EventArgs e) { }
-        private void label4_Click(object sender, EventArgs e) { }
 
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
@@ -229,5 +222,8 @@ namespace ShaniConverts
             }
             base.OnFormClosing(e);
         }
+
+
+
     }
 }

@@ -147,7 +147,7 @@
     <value>Segoe UI Semibold, 14pt, style=Bold</value>
   </data>
   <data name="footer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>410, 170</value>
+    <value>383, 134</value>
   </data>
   <data name="footer.Size" type="System.Drawing.Size, System.Drawing">
     <value>339, 64</value>
@@ -157,7 +157,7 @@
   </data>
   <data name="footer.Text" xml:space="preserve">
     <value>על מנת להמיר את כל הטקסט 
-לחץ: ctrl+shift+Z
+לחץ: ctrl+shift+A
 </value>
   </data>
   <data name="footer.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
@@ -186,14 +186,14 @@
     <value>56, 125</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>288, 201</value>
+    <value>288, 131</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>על מנת להמיר את הטקסט המסומן
-לחץ: ctrl+shift+A
+לחץ: ctrl+shift+Z
 </value>
   </data>
   <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
@@ -218,7 +218,7 @@
     <value>Calibri, 30pt, style=Bold</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>56, 32</value>
+    <value>73, 32</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>643, 63</value>
@@ -251,7 +251,7 @@
     <value>Sans Serif Collection, 9.999999pt</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>56, 391</value>
+    <value>56, 389</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>661, 58</value>
@@ -284,10 +284,10 @@
     <value>NoControl</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 249</value>
+    <value>99, 277</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 142</value>
+    <value>190, 112</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -323,7 +323,7 @@
     <value>True</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>813, 458</value>
+    <value>827, 495</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 10pt</value>
@@ -4848,8 +4848,11 @@
   <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
   </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShaniConverts</value>
+    <value>Shani Converts - רץ ברקע</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Form1</value>
